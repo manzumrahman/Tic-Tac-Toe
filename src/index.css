@@ -1,13 +1,40 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.game{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #B24592;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.status{
+  margin-bottom: 50px;
+  font-size: 80px;
+  color: white;
+}
+.board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  flex-direction: column;
+}
+.board-row{
+  display: flex;
+}
+.board-box{
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+}
+.square{
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  font-size: 50px;
+  color: #F15F79;
 }
