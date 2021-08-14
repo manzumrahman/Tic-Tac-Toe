@@ -1,0 +1,2 @@
+*{margin:0;padding:0}.game{height:100vh;display:flex;justify-content:center;background:#b24592;background:linear-gradient(90deg,#f15f79,#b24592)}.status{margin-bottom:50px;font-size:80px;color:#fff}.board{justify-content:center;align-items:center;height:80vh;flex-direction:column}.board,.board-row{display:flex}.board-box{margin:5px}.board-box,.square{height:100px;width:100px}.square{border-radius:20px;border:2px solid transparent;font-size:50px;color:#f15f79}
+/*# sourceMappingURL=main.6fbaef80.chunk.css.map */
